@@ -17,8 +17,8 @@ import {mpReturnCreate} from './functions/mpReturnCreate'
 const config = require("./config")
 
 //input your card and sms code here
-const creditCard = //'XXXX XXXX XXXX XXXX'
-const smsCode = //'XXXXXXXX'
+const creditCard = 'XXXX XXXX XXXX XXXX'
+const smsCode = 'XXXXXXXX'
 
 let numbers
 let ids
