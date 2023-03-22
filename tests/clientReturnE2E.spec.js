@@ -16,6 +16,10 @@ import {mpReturnCreate} from './functions/mpReturnCreate'
 
 const config = require("./config")
 
+//input your card and sms code here
+const creditCard = //'XXXX XXXX XXXX XXXX'
+const smsCode = //'XXXXXXXX'
+
 let numbers
 let ids
 let sberURL
@@ -55,12 +59,12 @@ test("Get link and pay", async ({request}) => {
 test('Payment in Sberbank', async({page}) => {
   await delay(5000);
   await page.goto(sberURL)
-  await page.locator('[data-test-id="pan"]').fill('4111 1111 1111 1111');
+  await page.locator('[data-test-id="pan"]').fill(creditCard);
   await page.locator('[data-test-id="expiry"]').fill('12/24');
   await page.locator('[data-test-id="cvc"]').fill('123');
   await page.locator('[data-test-id="submit-payment"]').click();
   await delay(5000);
-  await page.getByPlaceholder('********').fill('12345678');
+  await page.getByPlaceholder('********').fill('smsCode');
   await delay(5000);
 
 })
