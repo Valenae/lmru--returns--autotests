@@ -1,0 +1,30 @@
+# lmru--returns--autotests
+Source code for LMRU Returns project. Automatic tests for project
+
+## Prerequisites
+
+Make sure you have installed all the following prerequisites on your development machine:
+
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org) (version 16 LTS or higher)
+- [Playwright](https://playwright.com) playwright framework
+
+## Service development lifecycle
+
+- Implement new tests
+- Add or adapt assertions
+- Add or change the documentation as needed
+- Open pull request. Target the project's `master` branch
+
+## How to use
+- choose test in test folder
+- type npx playwright test <testname> --headed --project=chromium --workers=1 --retries=5
+- currently works only clientReturnE2E.spec.js
+
+## To Do
+- Add file with all tests and descriptions
+- Add assertions
+
+## Maintainers
+
+[LMRU — Returns Team](https://github.com/orgs/adeo/teams/lmru-returns/members)

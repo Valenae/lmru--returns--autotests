@@ -1,0 +1,19 @@
+{
+    "messageName": "ASD2StateChanged",
+    "correlationKeys": {
+        "parcelStorageID": {
+            "type": "string",
+            "value": "{{parcel_id}}",
+            "valueInfo": { }
+        }
+    },
+    "processVariables": {
+        "requestedStateASD": {
+            "type": "string",
+            "value": "acceptedByCustomer",
+            "valueInfo": { }
+        }
+    },
+    "resultEnabled": true,
+    "variablesInResultEnabled": true
+}

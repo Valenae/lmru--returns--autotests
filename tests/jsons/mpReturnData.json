@@ -1,0 +1,17 @@
+{
+    "parcelStorageId": "{{parcel_id}}",
+    "creationDate": "2023-02-27T08:25:17",
+    "comment": "string",
+    "returnedProducts": [
+        {
+            "quantity": 1,
+            "sku": "90001244"
+        }
+    ],
+    "actor": "string",
+    "sendClientCommunications": true,
+    "sendMerchantCommunications": true,
+    "sourceType": "string",
+    "marketCode": "string",
+    "goodsQuality": "string"
+}

@@ -1,0 +1,8 @@
+{
+    "orderId": "{{businessKey}}",
+    "storeId": 999,
+    "amount": "11900.25",
+    "channel": "MARKETPLACE",
+    "email": "NoName@mail.ru",
+    "frontChannelForRedirectUrls": "MOSCOW"
+}

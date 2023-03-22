@@ -1,0 +1,132 @@
+{
+    "data": {
+        "client_id": "60121578",
+        "client_first_name": "Monika",
+        "client_last_name": "Blain",
+        "client_phone": "+1919191919",
+        "client_email": "sunandfreshair@gmail.com",
+        "comment": "Виктор +7 (966) 036-68-36",
+        "source": {
+            "type": "AEM",
+            "link": "[https://leroymerlin.ru/]"
+        },
+        "locations": {
+            "from": {
+                "lat": 0,
+                "long": 0
+            },
+            "to": {
+                "lat": 0,
+                "long": 0
+            }
+        },
+        "delivery_data": {
+            "deliveryService": {
+                "id": 2
+            },
+            "deliveryType": "courier",
+            "shipment": {
+                "18": {
+                    "deliveryService": {
+                        "id": 2
+                    },
+                    "deliveryDate": "2022-03-02",
+                    "deliveryDateMin": "2022-03-02",
+                    "deliveryDateMax": "2022-03-02",
+                    "deliveryInterval": "09.00-18.00",
+                    "paymentType": "PrePayment",
+                    "paymentMethod": "BankingCard",
+                    "deliveryStages": [
+                        {
+                            "type": "ZERO_MILE",
+                            "dateStartFrom": "2022-01-20T12:00:00+03:00",
+                            "dateStartTo": "2022-01-20T18:00:00+03:00",
+                            "dateEndFrom": "2022-01-21T00:00:00+03:00",
+                            "dateEndTo": "2022-01-21T23:59:59+03:00",
+                            "carrierId": "123640"
+                        },
+                        {
+                            "type": "SORTED_ZERO_MILE",
+                            "dateStartFrom": "2022-01-20T14:00:00+03:00",
+                            "dateStartTo": "2022-01-20T18:00:00+03:00",
+                            "dateEndFrom": "2022-01-21T00:00:00+03:00",
+                            "dateEndTo": "2022-01-21T23:59:59+03:00",
+                            "carrierId": "123640",
+                            "sortingCenterId": "3"
+                        },
+                        {
+                            "type": "TRUNKING",
+                            "dateStartFrom": "2022-01-21T00:00:00+03:00",
+                            "dateStartTo": "2022-01-21T23:59:59+03:00",
+                            "dateEndFrom": "2022-01-25T00:00:00+03:00",
+                            "dateEndTo": "2022-01-25T23:59:59+03:00",
+                            "carrierId": "2"
+                        },
+                        {
+                            "type": "THIRD_PARTY_LOGISTIC",
+                            "dateStartFrom": "2022-01-25T00:00:00+03:00",
+                            "dateStartTo": "2022-01-25T23:59:59+03:00",
+                            "dateEndFrom": "2022-01-25T09:00:00.000Z",
+                            "dateEndTo": "2022-02-24T22:00:00.000Z",
+                            "carrierId": "2"
+                        }
+                    ],
+                    "totalWeight": 0.6000000000000001,
+                    "totalLength": 80,
+                    "totalWidth": 72,
+                    "totalHeight": 864,
+                    "productsPrice": 11600.25,
+                    "products": [
+                        {
+                            "id": "90001244",
+                            "quantity": 10,
+                            "price": 10,
+                            "link": "https://leroymerlin.ru/product/lampa-ecola-standart-svetodionaya-gu10-10-vt-reflektornaya-800-lm-neytralnyy-svet-90121120/"
+                        },
+                        {
+                            "id": "90001245",
+                            "quantity": 5,
+                            "price": 100,
+                            "link": "https://leroymerlin.ru/product/lampa-ecola-standart-svetodionaya-gu10-10-vt-reflektornaya-800-lm-neytralnyy-svet-90121120/"
+                        },
+                        {
+                            "id": "93830680",
+                            "quantity": 5,
+                            "price": 100,
+                            "link": "https://leroymerlin.ru/product/lampa-ecola-standart-svetodionaya-gu10-10-vt-reflektornaya-800-lm-neytralnyy-svet-90121120/"
+                        },
+                        {
+                            "id": "90001200",
+                            "quantity": 5,
+                            "price": 100.05,
+                            "link": "https://leroymerlin.ru/product/lampa-ecola-standart-svetodionaya-gu10-10-vt-reflektornaya-800-lm-neytralnyy-svet-90121120/"
+                        },
+                        {
+                            "id": "90144043",
+                            "quantity": 1,
+                            "price": 10000,
+                            "link": "https://leroymerlin.ru/product/lampa-ecola-standart-svetodionaya-gu10-10-vt-reflektornaya-800-lm-neytralnyy-svet-90121120/"
+                        }
+                    ]
+                }
+            },
+            "channel": "LM MarketPlace",
+            "deliveryPrice": "300",
+            "liftUpPrice": "",
+            "deliveryDateMin": "",
+            "deliveryDateMax": "",
+            "totalOrderPrice": 11900.25,
+            "deliveryAddress": "Россия, Москва, Армянский переулок, 1/8с1",
+            "deliveryAddressCityFiasId": "0c5b2444-70a0-4932-980c-b4dc0d3f02b5",
+            "deliveryAddressCity": "Москва",
+            "deliveryAddressCityCode": "RU77000000000",
+            "deliveryAddressStreet": "Армянский переулок",
+            "deliveryAddressHouse": "1/8с1",
+            "deliveryAddressApartment": "",
+            "deliveryAddressIndex": "0"
+        },
+        "paymentLink": "https://checkout.market.leroymerlin.ru/pay/460219/35dd4c/",
+        "paymentType": "PrePayment",
+        "paymentMethod": "BankingCard"
+    }
+}

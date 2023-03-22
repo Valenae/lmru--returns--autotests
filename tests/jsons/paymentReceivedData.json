@@ -1,0 +1,10 @@
+{
+    "messageName": "PaymentReceived",
+    "businessKey": "MP1712347",
+    "processVariables": {
+      "PaymentRecieved": {
+        "type": "json"
+      }
+    },
+    "all": "true"
+  }
