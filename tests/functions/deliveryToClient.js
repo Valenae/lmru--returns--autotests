@@ -1,9 +1,14 @@
-import{expect} from '@playwright/test'
+import { expect } from "@playwright/test";
 
-const config = require("../config")
+import { delay } from "../functionsGeneral/delay";
 
-exports.paymentReceived = async function (request, delivertData){
-      let response = await request.post(`${config.camundaURL}/message`, {headers: {'Cookie': 'INGRESSCOOKIE=1631269138.398.501.982868'}, data: delivertData});
-      expect(response.status()).toBe(200);
-    };
-  
+const config = require("../config");
+
+exports.deliveryToClient = async function (request, deliveryData) {
+  await delay(3000);
+  const response = await request.post(`${config.camundaURL}/message`, {
+    headers: { Cookie: "INGRESSCOOKIE=1631269138.398.501.982868" },
+    data: deliveryData,
+  });
+  expect(response.status()).toBe(200);
+};

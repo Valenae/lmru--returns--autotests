@@ -18,10 +18,10 @@ Make sure you have installed all the following prerequisites on your development
 
 ## How to use
 - choose test in test folder
-- type npx playwright test <testname> --headed --project=chromium --workers=1 --retries=5
-- currently works only clientReturnE2E.spec.js
+- type npx playwright test <testname> --headed --project=chromium --workers=1 --retries=2
+- currently works only clientReturn.spec.js
 
-## To Do
+## To Do    
 - Add file with all tests and descriptions
 - Add assertions
 
